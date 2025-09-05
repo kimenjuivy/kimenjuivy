@@ -101,11 +101,11 @@ With a strong foundation in **SQL**, **Python**, and **Advanced Statistics**, I'
 
 <div align="center">
 
-![Ivy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ivy-kimenju&show_icons=true&theme=radical&count_private=true)
+![Ivy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kimenjuivy&show_icons=true&theme=radical&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ivy-kimenju&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kimenjuivy&layout=compact&theme=radical)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=ivy-kimenju&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com/?user=kimenjuivy&theme=radical)
 
 </div>
 
