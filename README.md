@@ -53,7 +53,7 @@ With a strong foundation in **SQL**, **Python**, and **Advanced Statistics**, I'
 
 ## 📈 Featured Projects Portfolio
 
-### 🏢 [Customer Segmentation & Revenue Analysis]([https://github.com/ivy-kimenju/customer-segmentation-analysis](https://kimenjuivy.github.io/customer-segmentation-project/))
+### 🏢 [Customer Segmentation & Revenue Analysis](https://github.com/kimenjuivy/customer-segmentation-project)
 *Advanced analytics project for retail business optimization*
 - **Tech Stack:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn
 - **Impact:** Identified 5 distinct customer segments leading to 23% increase in targeted marketing ROI
