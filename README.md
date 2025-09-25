@@ -105,7 +105,8 @@ With a strong foundation in **SQL**, **Python**, and **Advanced Statistics**, I'
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kimenjuivy&layout=compact&theme=radical)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=kimenjuivy&theme=radical)
+[GitHub Streak](https://streak-stats.demolab.com?user=kimenjuivy&theme=radical&date=20250925)
+
 
 </div>
 
