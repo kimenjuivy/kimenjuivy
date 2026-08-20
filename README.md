@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:003822,70:0e4429,100:39d353&height=140&section=header&text=Ivy%20Wangari%20Kimenju&fontSize=32&fontColor=ffffff&fontAlignY=50&fontAlign=50&desc=Data%20Analyst%20%20%E2%80%A2%20%20Business%20Intelligence%20%20%E2%80%A2%20%20Mombasa%2C%20Kenya&descSize=13&descAlignY=70&descColor=39d353&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:003822,70:0e4429,100:39d353&height=140&section=header&text=Ivy%20Wangari%20Kimenju&fontSize=32&fontColor=ffffff&fontAlignY=50&fontAlign=50&desc=Data%20Analyst%20%20%E2%80%A2%20%20Business%20Intelligence%20%20%E2%80%A2%20%20Nairobi%2C%20Kenya&descSize=13&descAlignY=70&descColor=39d353&animation=fadeIn" />
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Public+sector+data+%7C+Statistical+analysis+%7C+Reproducible+research;Python+%7C+SQL+%7C+Excel+%7C+Power+BI+(in+progress);Open+to+Data+Analyst+%26+BI+roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Public+sector+data+%7C+Spatial+and+statistical+analysis;Python+%7C+SQL+%7C+Excel+%7C+Power+BI+(in+progress);Open+to+Data+Analyst+%26+BI+roles)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivy-kimenju)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kimenjuivy@gmail.com)
@@ -19,9 +19,9 @@
 ```python
 analyst = {
   "name"     : "Ivy Wangari Kimenju",
-  "location" : "Mombasa, Kenya 🇰🇪",
-  "focus"    : ["public sector data", "statistical analysis",
-                "reproducible research"],
+  "location" : "Nairobi, Kenya 🇰🇪",
+  "focus"    : ["public sector data", "spatial inequality",
+                "statistical analysis"],
   "building" : "an honest, defensible analytics portfolio",
   "open_to"  : "Data Analyst & BI roles",
 }
@@ -41,6 +41,8 @@ analyst = {
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square&logo=python&logoColor=white)
+![Folium](https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI_(in_progress)-F2C811?style=flat-square&logo=powerbi&logoColor=black)
@@ -51,7 +53,7 @@ analyst = {
 
 ---
 
-### Featured project
+### Projects
 
 #### 🇰🇪 [Kenya County Development and Opportunity Index (KCDOI)](https://github.com/kimenjuivy/kenya-development-index)
 > A county-level socioeconomic development index for all 47 Kenyan counties, built from raw KNBS government publications — census data, poverty reports, financial inclusion surveys, and county GDP figures. Extracted and validated 8 independent data domains from source PDFs, built a composite Development Score two independent ways and cross-validated them, and tested a real ASAL vs non-ASAL development gap.
@@ -64,6 +66,19 @@ analyst = {
 | Domains excluded due to no reliable data source | 2 of 10 (healthcare, urbanization) |
 
 `Python` `pandas` `SciPy` `statsmodels` `scikit-learn` `pdfplumber` `SQLite` `Excel`
+
+---
+
+#### 🏥 [Nairobi Healthcare Access Inequality Analysis](https://github.com/kimenjuivy/nairobi-healthcare-access-analysis)
+> Built a Healthcare Access Inequality Index (HAII) for Nairobi's constituencies, combining facility density, KEPH-weighted facility levels, and population pressure, using 2017 KMHFL facility data and 2019 KNBS population estimates.
+
+| Finding | Value |
+|:---|:---|
+| Level 4+ hospitals concentrated in just 5 constituencies | 75.7% |
+| Mathare facility density vs Nairobi average | 0.73 vs 1.96 per 10,000 (≈2.7× below) |
+| Kasarani population with no Level 4+ access | 780,656 residents |
+
+`Python` `pandas` `GeoPandas` `Folium` `KMHFL 2017` `KNBS 2019`
 
 ---
 
