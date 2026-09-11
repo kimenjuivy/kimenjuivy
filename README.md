@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Public+sector+data+%7C+Spatial+and+statistical+analysis;Python+%7C+SQL+%7C+Excel+%7C+Power+BI+(in+progress);Open+to+Data+Analyst+%26+BI+roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=500&lines=Public+sector+data+%7C+Spatial+and+statistical+analysis;Python+%7C+SQL+%7C+Excel+%7C+Power+BI;Open+to+Data+Analyst+%26+BI+roles)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivy-kimenju)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kimenjuivy@gmail.com)
@@ -36,6 +36,7 @@ analyst = {
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
@@ -45,7 +46,7 @@ analyst = {
 ![Folium](https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI_(in_progress)-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
@@ -54,6 +55,20 @@ analyst = {
 ---
 
 ### Projects
+
+#### ✈️ [Global Airline Performance Analytics](https://github.com/kimenjuivy/airline-performance)
+> A full-pipeline analysis of 7,001,619 US domestic flights (2025, BTS data) — raw CSVs through a MySQL database, statistical testing, and an interactive 6-page Power BI dashboard. Along the way: diagnosed a Windows CRLF encoding bug that silently corrupted a loaded column, caught two stale entries in a third-party reference dataset, and found (and fixed) an unweighted-average statistical error independently in two separate calculations.
+
+| Finding | Value |
+|:---|:---|
+| Correlation: carrier & late-aircraft delay vs. weather delay | 0.6–0.67 vs. 0.32 |
+| Seasonal delay swing, July vs. September | 24.55 min vs. 12.05 min |
+| Worst single route (≥100 flights) | CKB→SFB, 93.98 min avg (5.4× dataset average) |
+| Third-party reference-data errors found & corrected | 4 (2 missing airports, 2 mislabeled airline codes) |
+
+`MySQL` `Python` `pandas` `dask` `SciPy` `statsmodels` `Power BI` `Excel`
+
+---
 
 #### 🇰🇪 [Kenya County Development and Opportunity Index (KCDOI)](https://github.com/kimenjuivy/kenya-development-index)
 > A county-level socioeconomic development index for all 47 Kenyan counties, built from raw KNBS government publications — census data, poverty reports, financial inclusion surveys, and county GDP figures. Extracted and validated 8 independent data domains from source PDFs, built a composite Development Score two independent ways and cross-validated them, and tested a real ASAL vs non-ASAL development gap.
@@ -90,7 +105,7 @@ analyst = {
 
 ```
 ✅  Power Learn Project Africa — Software Engineering (16 weeks, completed, Certificate of Achievement)
-🔄  Building KCDOI's Power BI dashboard
+✅  Global Airline Performance Analytics — full SQL/Python/Power BI/Excel pipeline
 🔄  Applying for Data Analyst and BI Analyst roles / internships
 ```
 
