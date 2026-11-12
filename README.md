@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:003822,75:0e4429,100:39d353&height=180&section=header&text=Ivy%20Wangari%20Kimenju&fontSize=34&fontColor=ffffff&fontAlignY=40&desc=DATA%20ANALYST%20%7C%20BUSINESS%20INTELLIGENCE%20%7C%20Nairobi%2C%20Kenya&descSize=13&descAlignY=65&descColor=aff5bd&animation=fadeIn" />
@@ -79,6 +78,7 @@ analyst = {
 **Databases, Tools & Workflow**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
@@ -190,10 +190,33 @@ A spatial analysis of healthcare access inequality across Nairobi's constituenci
 
 ---
 
+### 05 · 🌾 Climate & Agricultural Vulnerability Intelligence
+
+**[View Repository →](https://github.com/kimenjuivy/Climate_agriculture_intelligence)**
+
+An end-to-end analysis of which regions are most vulnerable to declining crop yields, combining **29 years of FAOSTAT yields for four staple crops** with NASA POWER weather for **174 countries**. The project covers a Python data pipeline, a PostgreSQL star schema with SQL views, statistical testing, four-model forecasting and an interactive seven-page Power BI dashboard.
+
+**Key Findings**
+
+| Analysis | Result |
+|:---|:---|
+| Countries scored / showing a declining-yield signal | 130 / 24 (11 in Africa) |
+| Highest vulnerability scores | Zimbabwe (rice) 0.31, Venezuela (soya beans) 0.29 |
+| Countries warmer than their 1981–2010 baseline | 149 of 174 |
+| Rank correlation: recent warming vs. yield change (160 countries) | 0.05 |
+| Regression R²: climate anomalies vs. yield growth | ≤ 0.003 |
+| Forecast series where a naive baseline beat every other model | 3 of 10 |
+
+**Technical Work:** Data pipeline development, PostgreSQL modelling and SQL views, independent Python and SQL cross-validation, statistical testing, time-series forecasting, dashboard development and reconciliation of dashboard figures against SQL.
+
+`Python` `PostgreSQL` `pandas` `statsmodels` `Prophet` `SciPy` `GeoPandas` `Power BI`
+
+---
+
 ## ✿ Currently
 
 - Completed **Power Learn Project Africa – Software Engineering** (16 weeks, Certificate of Achievement).
-- Completed four end-to-end analytics projects covering aviation, e-commerce, county development and healthcare access.
+- Completed five end-to-end analytics projects covering aviation, e-commerce, county development, healthcare access and climate-driven crop vulnerability.
 - Building on my Python, SQL, Excel, Power BI and Tableau skills.
 - Seeking opportunities to contribute to data-driven teams as a Data Analyst or BI Analyst.
 
